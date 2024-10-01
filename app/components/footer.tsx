@@ -59,9 +59,9 @@ export default function Footer() {
           className="transition-all hover:text-neutral-800 dark:hover:text-neutral-100 h-7"
           rel="noopener noreferrer"
           target="_blank"
-          href="https://vercel.com/templates/next.js/portfolio-starter-kit"
+          href="https://github.com/sangddn/blog"
         >
-          Next.js Portfolio Kit (MIT)
+          Source code
         </a>{'.'}
       </p>
     </footer>
