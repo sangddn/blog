@@ -1,8 +1,8 @@
 function ArrowIcon() {
   return (
     <svg
-      width="12"
-      height="12"
+      width="10"
+      height="10"
       viewBox="0 0 12 12"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
@@ -26,8 +26,8 @@ export default function Footer() {
             target="_blank"
             href="/rss"
           >
+            <p className="mr-2 h-7">rss</p>
             <ArrowIcon />
-            <p className="ml-2 h-7">rss</p>
           </a>
         </li>
         <li>
@@ -37,8 +37,19 @@ export default function Footer() {
             target="_blank"
             href="https://github.com/sangddn"
           >
+            <p className="mr-2 h-7">github</p>
             <ArrowIcon />
-            <p className="ml-2 h-7">github</p>
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex items-center transition-all hover:text-neutral-800 dark:hover:text-neutral-100"
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://twitter.com/sangddn"
+          >
+            <p className="mr-2 h-7">twitter/x</p>
+            <ArrowIcon />
           </a>
         </li>
         <li>
@@ -48,8 +59,8 @@ export default function Footer() {
             target="_blank"
             href="https://sangdoan.com/"
           >
+            <p className="mr-2 h-7">portfolio</p>
             <ArrowIcon />
-            <p className="ml-2 h-7">portfolio</p>
           </a>
         </li>
       </ul>
