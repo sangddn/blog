@@ -61,7 +61,7 @@ export default function Footer() {
           target="_blank"
           href="https://vercel.com/templates/next.js/portfolio-starter-kit"
         >
-          Next.js Portfolio Theme (MIT)
+          Next.js Portfolio Kit (MIT)
         </a>{'.'}
       </p>
     </footer>
